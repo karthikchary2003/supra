@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    min-height: 100vh;
+    width: 100%;
+}
+
+#top{
+    min-height: 50vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1575833885699-bae73b593ca2?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position:50% 60%;
+    background-size: cover;
+}
+#text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 30%;
+    padding: 0% 10vw;
+    color: rgb(255, 255, 255);
+}
+#text h1{
+    font-size: 5vw;
+    font-weight: 600;
+
+}
+#textright{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 65%;
+}
+#textright #rightthree{
+    display: flex;
+    gap: 1vw;
+}
+#textright h1{
+    font-size: 25px;
+}
+#textright p{
+    font-size: 15px;
+    width: 75%;
+    text-align:left;
+}
+#overlay{
+    position: relative;
+    width: 100%;
+    min-height:inherit;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+#bottom{
+    width: 100%;
+    min-height: 50vh;
+    background-color: aquamarine;
+    display: flex;
+}
+
+#one{
+min-height: inherit;
+width: 25%;
+background-color: rgb(255, 255, 255);
+padding: 2vw;
+}
+#one h1{
+    color: black;
+    font-weight: 600;
+}
+#one p{
+    padding-top: 0.5vw;
+    font-size: 14px;
+    width: 22vw;
+    color: black;
+}
+#two{
+    min-height:inherit;
+    width: 25%;
+    background-image: url(https://media.istockphoto.com/id/1321647918/photo/rally-concept.jpg?s=612x612&w=0&k=20&c=lKWJwBjZSgo16h2Q0HF7ITyu5oQGnOEgSOMSQLLNppE=);
+    background-position: center;
+    filter: grayscale(50%);
+    background-size: cover;
+    }
+#three{
+    min-height: inherit;
+        width: 20%;
+        background-color: rgb(75, 246, 255);
+      
+        }
+
+ #threetop{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(156, 0, 0, 0.826);
+    padding: 2vw;
+ } 
+ #threetop h4{
+    font-size: 20px;
+    font-weight: 500;
+ }
+ #threetop p{
+    font-size: 15px;
+    
+}
+ #threebottom{
+   min-height: 50%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1620882788693-cd891b20837d?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+ }   
+ 
+#four{
+    min-height:inherit;
+    width: 30%;
+    background-color:#262626f9;
+    color: white;
+    padding: 2vw;
+    }
+    #four h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+#notify{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    height: 6vw;
+    width: 100%;
+}
+#notify #photo{
+
+    background-image: url(https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    height:3vw;
+    width: 3vw;
+    
+    border-radius: 50%;
+}
+
+#notify p{
+    font-size: 13px;
+    width: 22vw;
+}
+
+
+#notify #photo2{
+
+    background-image: url(https://images.unsplash.com/photo-1437011165434-0b8d687711aa?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    height:3vw;
+    width: 3vw;
+    
+    border-radius: 50%;
+}
+
+#notify #photo3{
+
+    background-image: url(https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    height:3vw;
+    width: 3vw;
+    
+    border-radius: 50%;
+}
+
+@media  screen and (max-width: 700px) {
+    #top{
+        background-position: left;
+    }
+    #text{
+        gap: 3vw;
+    }
+    #text #supra{
+        font-size: 45px;
+    }
+    #text p{
+        width: 60%;
+    }
+    #text #textright {
+        width: 100%;
+    }
+    #text{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+       bottom: 23%;
+       padding: 4vw;
+    }
+    #textright{
+      display: flex;
+      flex-direction: column;
+      gap: 5vw;
+    }
+    #textright h1{
+        font-size: 18px;
+    }
+    #textright p{
+        font-size: 13px;
+    }
+
+
+    #rightthree{
+        height: 5vw;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    #threebottom{
+        height: 40vh;
+    }
+    #rightthree i{
+        font-size: 25px;
+        padding-right: 3vw;
+    }
+    p{
+        width: 100%;
+    }
+
+    #bottom{
+        flex-direction: column;
+
+    }
+    #one,#two,#three,#four{
+        width: 100%;
+    }
+    #one{
+        min-height: 22vh;
+        padding: 3.5vw;
+    }
+    #threetop p,#one p{
+        width: 100%;
+    }
+    
+    #threetop{
+        background-color: rgba(92, 0, 0, 0.869);
+        min-height: 20vh;
+        padding: 3.5vw;
+    }
+
+    #four{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 3.5vw;
+        gap: 5vw;
+    }
+    #four p{
+        width: 80%;
+        height: 10vw;
+        font-size: 3vw;
+    }
+    #notify{
+        display: flex;
+        justify-content:center;
+        gap: 3vw;
+        height: 10vh;
+
+    }
+   #four #notify .p{
+    height: 15vw;
+    width: 15vw;
+
+   }
+
+}
